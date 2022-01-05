@@ -3,4 +3,4 @@
 
 # Puede ver el proyecto funcionando online!
 
-Haga click en el siguiente enlace --->[calendarApp](https://calendarapp-zapata.netlify.app/login)
+Haga click en el siguiente enlace --->[calendarApp](https://calendarapp-zapata.netlify.app)
