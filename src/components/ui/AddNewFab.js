@@ -16,7 +16,7 @@ export const AddNewFab = () => {
         className='btn btn-primary fab'
         onClick={ handleClickNew }
         >
-            <i className='fas fa-plus'></i>
+            <ion-icon name="add-outline"></ion-icon>
             
         </button>
     )

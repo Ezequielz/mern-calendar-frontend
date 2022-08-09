@@ -41,14 +41,16 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <!-- <script>
-      // console.log('%NODE_ENV%')
-      const isProduction = ('%NODE_ENV%' === 'production');
+    <script>
+      const isProduction = ( '%NODE_ENV%' === 'production' );
 
       if ( isProduction && 'serviceWorker' in navigator ) {
         navigator.serviceWorker.register( 'sw.js' )
       }
 
-    </script> -->
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
   </body>
 </html>

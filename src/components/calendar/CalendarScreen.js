@@ -75,7 +75,6 @@ export const CalendarScreen = () => {
         <div  className='claendar-screen'>
             <Navbar />
 
-
             <Calendar
                 localizer={localizer}
                 events={events}
@@ -103,6 +102,7 @@ export const CalendarScreen = () => {
                 }
 
                 <CalendarModal />
+                
         </div>
     )
 }
